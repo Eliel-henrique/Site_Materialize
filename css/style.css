@@ -1,0 +1,82 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1{
+  min-height: 500px;
+}
+
+.form-container{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 15px 2% 0 2%;
+  max-width: 700px;
+}
+
+.btn{
+  margin-top: 10px;
+}
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h2{
+  position: relative;
+  font-size: 30px;
+  color: #666;
+  background: white;
+  display: inline-block;
+  z-index: 2;
+  padding-right: 10px;
+}
+
+.custom-title > div{
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  top: 55px;
+  background-color: #777;
+  left: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
